@@ -57,22 +57,25 @@ To run the script clone the repository to your local repository and install the 
  <img src="images/trace_extraction.jpg" width="500">
 * To see the comparison between actual and synthesized traces in terms of KDE and temporal plots run `python draw_temporal_and_kde_plots_Netflix.py` and `python draw_temporal_and_kde_plots_Stan.py`.
 
+Sample comparison between actual and synth traces for a trace selected from Netflix video 1.
 
+<img src="images/KDE_Netflix.jpg" width="300">
 
+<img src="images/Temporal_Netflix.jpg" width="300">
 
+## Please cite our work if you intend to use our dataset or refer to the paper
 
+`Chamara Madarasingha, Shashika R Muramudalige, Guillaume Jourjon, Anura Jayasumana, and Kanchana Thilakarathna. 2022. VideoTrain++: GAN-based adaptive framework for synthetic video traffic generation. Computer Networks (2022), 108785.`
 
+`@article{madarasingha2022videotrain++,`\
+  `title={VideoTrain++: GAN-based adaptive framework for synthetic video traffic generation},`\
+  `author={Madarasingha, Chamara and Muramudalige, Shashika R and Jourjon, Guillaume and Jayasumana, Anura and Thilakarathna, Kanchana},`\
+  `journal={Computer Networks},`\
+  `pages={108785},`\
+  `year={2022},`\
+  `publisher={Elsevier}`\
+`}`
 
+We do not provide classification models used for video fringerprinting or 360/Normal video classificatio models in this repository. Initial models of 360/Normal video classification can be found in the prelimanary work **VideoTrain** in https://github.com/manojMadarasingha/videoTrain. For further information contact the authors
 
-
-
-
-
-
-
-
-
-
-
-
-We will update the code repo soon. Basic implementation of  VideoTrain++ can be found in https://github.com/manojMadarasingha/videoTrain.
+Chamara Madarasingha: `ckat9988@uni.sydney.edu.au`
