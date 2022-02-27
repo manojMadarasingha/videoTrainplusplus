@@ -76,6 +76,6 @@ Sample comparison between actual and synth traces for a trace selected from Netf
   `publisher={Elsevier}`\
 `}`
 
-We do not provide classification models used for video fringerprinting or 360/Normal video classificatio models in this repository. Initial models of 360/Normal video classification can be found in the prelimanary work **VideoTrain** in https://github.com/manojMadarasingha/videoTrain. For further information contact the authors
+**Note**: We do not provide classification models used for video fringerprinting or 360/Normal video classificatio models in this repository. Initial models of 360/Normal video classification can be found in the prelimanary work **VideoTrain** in https://github.com/manojMadarasingha/videoTrain. For further information contact the authors
 
 Chamara Madarasingha: `ckat9988@uni.sydney.edu.au`
