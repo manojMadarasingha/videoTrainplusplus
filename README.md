@@ -1,4 +1,4 @@
-# videoTrainplusplus
+# VideoTrain++
 Code repository for the work "VideoTrain++: GAN-Based Adaptive Framework for Synthetic Video Traffic Generation" published in Elsevier Computer Networks.
 
 ## Requirements
