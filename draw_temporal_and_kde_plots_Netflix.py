@@ -7,7 +7,7 @@ import os
 
 
 def read_actual(vid):
-    path_in_actual = '/data/Netflix/actual/'
+    path_in_actual = os.getcwd() + '/data/Netflix/actual/'
 
     vid_path = path_in_actual + '/' + vid
 
@@ -17,7 +17,7 @@ def read_actual(vid):
 
 
 def read_synth(vid):
-    path_in_synth = '/data/Netflix/synth/'
+    path_in_synth = os.getcwd()+'/data/Netflix/synth/'
 
     vid_path = path_in_synth + '/' + vid
 

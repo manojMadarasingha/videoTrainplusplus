@@ -10,7 +10,7 @@ def increase_bin_size(bin_divide, trace):
     return new_trace
 
 def read_actual(vid):
-    path_in_actual = '/data/Stan/actual/'
+    path_in_actual = os.getcwd()+'/data/Stan/actual/'
 
     vid_path = path_in_actual + '/' + vid
     df_actual_arr = pd.read_csv(vid_path)[[' addr2_bytes']].values
@@ -21,7 +21,7 @@ def read_actual(vid):
 
 
 def read_synth(vid):
-    path_in_synth = '/data/Stan/synth/'
+    path_in_synth = os.getcwd()+'/data/Stan/synth/'
 
     vid_path = path_in_synth + '/' + vid
     features = [' addr2_bytes']
