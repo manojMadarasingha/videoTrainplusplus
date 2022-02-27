@@ -47,7 +47,7 @@ To run the script clone the repository to your local repository and install the 
 
 ## How the code works
 
-* Folder **data** contains sample two actual traces of Netflix and Stan traces we used in VideoTrain++. YouTube data generation is similar to Stan data generation. All the GAN models used in data generation are coded in relevant scripts. 
+* Folder **data** contains sample two actual traces of Netflix and Stan traces we used in VideoTrain++. YouTube, 360 and Normal video data generation is similar to Stan data generation. All the GAN models used in data generation are coded in relevant scripts. 
 * Synthesized traces are stored in `data` folder under `synth` subfolder. For both Netflix and Stan, codes generate *n* number of traces in one `.csv` file. Users can separate these traces as follows. Each row of the `.csv` file represents a bin of the trace. Below figure further explains the process.
     * Netflix: split the `.csv` files every 500 rows, because a Netflix trace contains 500 bins
     * Stan: split the `.csv` files every 125 rows, because a Stan trace contains 125 bins
