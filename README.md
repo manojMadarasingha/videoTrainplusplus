@@ -30,6 +30,9 @@ further supported by novel algorithms for data pre-processing and GAN model trai
 over 6600 actual video traces and generating over 150,000 new traces, our ML-based traffic
 classification results show a 5–16% of accuracy improvement in both tasks.
 
+Overall process and sample tile configuration (Cache+CS) to cover a requested VP
+
+ <img src="images/work_flow.jpg" width="500">
 
 ## Run the script
 To run the script clone the repository to your local repository and install the required packages above. 
@@ -48,7 +51,12 @@ To run the script clone the repository to your local repository and install the 
 * Synthesized traces are stored in `data` folder under `synth` subfolder. For both Netflix and Stan, codes generate *n* number of traces in one `.csv` file. Users can separate these traces as follows. Each row of the `.csv` file represents a bin of the trace. Below figure further explains the process.
     * Netflix: split the `.csv` files every 500 rows, because a Netflix trace contains 500 bins
     * Stan: split the `.csv` files every 125 rows, because a Stan trace contains 125 bins
- 
+    
+ Trace extraction from the synthesized `.csv` file
+
+ <img src="images/trace_extraction.jpg" width="500">
+* To see the comparison between actual and synthesized traces in terms of KDE and temporal plots run `python draw_temporal_and_kde_plots_Netflix.py` and `python draw_temporal_and_kde_plots_Stan.py`.
+
 
 
 
